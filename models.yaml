@@ -20,3 +20,31 @@ Anything_v3_default:
   width: 512
   height: 512
   vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+anything-v4.0-pruned-fp16:
+  weights: models/ldm/stable-diffusion-v1/anything-v4.0-pruned-fp16.ckpt
+  description: Cool anime model
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+Cyberpunk-Anime-Diffusion:
+  weights: models/ldm/stable-diffusion-v1/Cyberpunk-Anime-Diffusion.safetensors
+  description: Cool anime model
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+dreamlike-photoreal-2.0:
+  weights: models/ldm/stable-diffusion-v1/dreamlike-photoreal-2.0.safetensors
+  description: Photo Real
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+Protogen_V2.2:
+  weights: models/ldm/stable-diffusion-v1/Protogen_V2.2.ckpt
+  description: Cool anime model
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
